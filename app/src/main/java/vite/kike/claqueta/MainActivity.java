@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         final String sony = "Sony G8341";
         final String bq = "bq Edison 3";
+        final String altres = "other";
         String dispositiu = Build.MANUFACTURER + " " + Build.MODEL;
 
         if (dispositiu.equals(sony)) {
